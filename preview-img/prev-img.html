@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prev_img</title>
+</head>
+
+<body>
+    <img src="" alt="" class="result" width="200">
+    <!-- menulis dom langsung di html -->
+    <input type="file" name="prev-img" id="prev-img" onchange="document.querySelector('.result').src = window.URL.createObjectURL(this.files[0])">
+
+</body>
+
+</html>
